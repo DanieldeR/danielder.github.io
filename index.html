@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Daniel de Repentigny</title>
+
+    <!-- Add bootstrap and personal CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/personal_page.css" />
+
+    <!-- Add Favicon -->
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/dcb006b24d.js" crossorigin="anonymous"></script>
+    <!--<script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>-->
+</head>
+
+<body>
+
+    <!-- Name and Title content -->
+    <div class="container content">
+        <div class="container">
+            <div id="name-row" class="d-flex flex-row justify-content-center">
+                <div id="name" class="name-div">
+                    <div class="name">Daniel de Repentigny</div>
+                </div>
+            </div>
+            <div id="title-row" class="d-flex flex-row justify-content-center">
+                <div id="title" class="title">
+                    Product Manager
+                </div>
+            </div>
+        </div>
+
+        <!-- Display the Contact separator -->
+        <div class="container">
+            <div id="contact-row" class="d-flex flex-row justify-content-center">
+                <div id="contact" class="boxed">
+                    Contact
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Display the contact links -->
+        <div class="container">
+            <!-- <div id="contact_icons" class="row"> -->
+            <div class="d-flex flex-row justify-content-center">
+                <div class="mx-3 mx-md-5 mx-sm-3">
+                    <a href="mailto:daniel@derepentigny.ca" target="_blank" data-toggle="tooltip"
+                        title="Send me an Email" data-placement="bottom">
+                        <i class="fas fa-at"></i>
+                        <p>Email</p>
+                    </a>
+                </div>
+                <div class="mx-3 mx-md-5">
+                    <a href="https://ca.linkedin.com/in/danielderepentigny" target="_blank" data-toggle="tooltip"
+                        title="Follow me on LinkedIn" data-placement="bottom">
+                        <i class="fab fa-linkedin-in"></i>
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+                <div class="mx-3 mx-md-5">
+                    <a href="https://www.instagram.com/daniel.der/" target="_blank" data-toggle="tooltip"
+                        title="Jump to my Instagram" data-placement="bottom">
+                        <i class="fab fa-instagram"></i>
+                        <p>Instagram</p>
+                    </a>
+                </div>
+                <div class="mx-3 mx-md-5">
+                    <span data-bs-toggle="modal" data-bs-target="#weChat">
+                        <a data-toggle="tooltip" title="Connect with me on WeChat" data-placement="bottom">
+                            <i class="fab fa-weixin"></i>
+                            <p>WeChat</p>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- WeChat Modal Content - Display my location -->
+        <div class="modal fade" id="weChat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">My WeChat - daniel_der</h4>
+                    </div>
+                    <div class="modal-body">
+                        <a href="images/weChat.png" download="DanieldeR-WeChat.png">
+                            <img src="images/weChat.png" class="img-responsive" style="width:100%; height:100%" />
+                        </a>
+                    </div>
+                    <div class="modal-footer">
+                        <h4 class="modal-title" id="weChat-mobile-text">Click to download, then add to WeChat</h4>
+                        <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other row Separator -->
+        <div class="container">
+            <div id="other-row" class="flex-row d-flex justify-content-center">
+                <div id="other" class="boxed">
+                    Other
+                </div>
+            </div>
+        </div>
+
+        <!-- Resume download(?) -->
+        <div class="container">
+            <div id="resume-row" class="flex-row d-flex justify-content-center">
+                <div id="resume" class="mx-3 mx-md-5">
+                    <a href="https://drive.google.com/file/d/19_wtVQuv5VHLQq-j4N-W48JTXR8KT19b/view?usp=sharing"
+                        target="_blank" data-toggle="tooltip" title="Click to View my Resume" data-placement="bottom">
+                        <i class="far fa-file"></i>
+                        <p>Resume</p>
+                    </a>
+                </div>
+                <div id="resume" class="mx-3 mx-md-5">
+                    <a href="https://calendly.com/derepentigny-daniel/coffee" target="_blank" data-toggle="tooltip"
+                        title="Let's get Coffee" data-placement="bottom">
+                        <i class="fas fa-mug-hot"></i>
+                        <p>Coffee</p>
+                    </a>
+                </div>
+                <div id="resume" class="mx-3 mx-md-5">
+                    <a href="https://github.com/DanieldeR" target="_blank" data-toggle="tooltip"
+                        title="What I've been coding" data-placement="bottom">
+                        <i class="fab fa-github"></i>
+                        <p>Github</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Call jquery and bootstrap JS libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Initialize Tooltips -->
+    <script type="text/javascript">
+        $(function () {
+            $("[data-toggle='tooltip']").tooltip();
+        });
+    </script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-84826503-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>

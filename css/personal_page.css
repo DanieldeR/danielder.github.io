@@ -1,0 +1,158 @@
+@font-face {
+  font-family: Bebas;
+  src: url('../fonts/BebasNeue-Regular.otf');
+}
+
+@font-face {
+  font-family: Blogger;
+  src: url('../fonts/BloggerSans.ttf')
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url('../fonts/Roboto-Light.ttf');
+}
+
+
+p {
+  font-family: Roboto-Light;
+  color: black;
+  text-align: center;
+  margin: 0;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 100px;
+}
+
+.name {
+  font-family: Bebas;
+  letter-spacing: 0.01em;
+  word-spacing: 0.1em;
+  text-align: center;
+  font-size: 70px;
+}
+
+.row {
+  text-align: center;
+}
+
+.name-div {
+  height: 90px;
+}
+
+.title {
+  font-family: Roboto-Light;
+  text-align: center;
+  font-size: 19px;
+  padding-bottom: 1em;
+  width: 500px;
+  border-bottom: 3px solid black;
+}
+
+.line {
+  border-top: 3px solid black;
+  text-align: center;
+}
+
+.item {
+  margin-right:3.5%;
+  margin-left:3.5%;
+}
+
+.boxed {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 1.5em;
+  font-size: 16px;
+  font-family: Roboto-Bold;
+}
+
+.fab,
+.fas,
+.far {
+  font-size: 42px;
+  color: black;
+}
+
+.img-responsive {
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.border {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.top-seperator {
+  height: 100px;
+}
+
+.class-bottom-seperator {
+  padding-top: 250px;
+}
+
+#weChat-mobile-text {
+  text-align: left;
+  float: left;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+  .border {
+    display: none;
+  }
+
+  .content {
+    padding-top: 20px;
+  }
+
+  .name {
+    position: static;
+    font-size: 9vw;
+  }
+
+  .name-div {
+    height: 2%;
+  }
+
+  .title {
+    position: static;
+    margin-bottom: 10px;
+    font-size: 2.5vw;
+    display: none;
+  }
+
+  .class-bottom-seperator {
+    padding-top: 30%;
+  }
+
+  #contact {
+    margin-top: 0em;
+  }
+}
