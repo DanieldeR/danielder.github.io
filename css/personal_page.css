@@ -1,21 +1,19 @@
 @font-face {
   font-family: Bebas;
   src: url('../fonts/BebasNeue-Regular.otf');
-}
-
-@font-face {
-  font-family: Blogger;
-  src: url('../fonts/BloggerSans.ttf')
+  font-display: swap;
 }
 
 @font-face {
   font-family: Roboto-Bold;
   src: url('../fonts/Roboto-Bold.ttf');
+  font-display: swap;
 }
 
 @font-face {
   font-family: Roboto-Light;
   src: url('../fonts/Roboto-Light.ttf');
+  font-display: swap;
 }
 
 
