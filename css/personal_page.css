@@ -83,11 +83,10 @@ a:hover {
   font-family: Roboto-Bold;
 }
 
-.fab,
-.fas,
-.far {
-  font-size: 42px;
-  color: black;
+.icon {
+  display: block;
+  margin: 0 auto;
+  fill: black;
 }
 
 .img-responsive {
